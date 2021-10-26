@@ -1,59 +1,48 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Portfolio
 
-> One paragraph statement about the project.
+> This is my showcase of my recently works
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Setup and mobile version skeletons.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HtML file
+- CSS file
+- linter
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://oliverscz.github.io/mobile-version-project/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+In order for the project to be viewed correctly, you have to enable the mobile view in the browser of your choice. I suggest you use google chrome. 
 
 ### Prerequisites
 
+Google Chrome browser
+
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
+Open index.html file with google chrome and right clic in any part of the page and go to Inspect option and enable display mobile.
 
 ### Deployment
+For better results you can put the resolution in 363x690 
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@olivercoimbra](https://github.com/olivercoimbra)
+- Twitter: [@olivercoimbra](https://twitter.com/olivercoimbra)
+- LinkedIn: [olivercoimbra](https://linkedin.com/in/olivercoimbra)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
