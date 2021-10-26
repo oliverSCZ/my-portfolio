@@ -2,7 +2,7 @@
 
 # Project Portfolio
 
-> One paragraph statement about the project.
+> This is my showcase of my recently works
 
 ![screenshot](./app_screenshot.png)
 
@@ -16,7 +16,7 @@ Setup and mobile version skeletons.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://oliverscz.github.io/mobile-version-project/)
 
 
 ## Getting Started
