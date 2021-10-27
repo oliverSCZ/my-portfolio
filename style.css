@@ -98,9 +98,8 @@ li i {
   margin-top: 10%;
 }
 
-.icons-homep > a
 a:link, a:visited {
-color: #557fc9;
+  color: #557fc9;
 }
 
 .ico-feature:hover {
