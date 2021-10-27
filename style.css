@@ -99,8 +99,7 @@ li i {
 }
 
 .icons-homep > a
-a:link,
-a:visited {
+a:link, a:visited {
 color: #557fc9;
 }
 
