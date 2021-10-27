@@ -4,7 +4,7 @@ body {
   height: 100vh;
 }
 
-#header {
+header {
   display: flex;
   justify-content: space-between;
 }
@@ -33,7 +33,7 @@ li {
   list-style-type: none;
 }
 
-li i {
+.navbar i {
   font-size: 15px;
   float: right;
   margin-right: 30px;
