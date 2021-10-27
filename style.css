@@ -106,9 +106,9 @@ li i {
 }
 
 .icons-homep > a
-  a:link,
-  a:visited {
-  color: #557fc9;
+a:link,
+a:visited {
+color: #557fc9;
 }
 
 .ico-feature:hover {
