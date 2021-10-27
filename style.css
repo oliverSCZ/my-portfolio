@@ -98,7 +98,11 @@ li i {
   margin-top: 10%;
 }
 
-a:link, a:visited {
+a:link {
+  color: #557fc9;
+}
+
+a:visited {
   color: #557fc9;
 }
 
