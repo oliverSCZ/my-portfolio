@@ -3,10 +3,12 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 #header {
   display: flex;
   justify-content:space-between;
 }
+
 #headline {
   display: flex;
   flex-direction: column;
@@ -14,12 +16,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 a,
 a:hover,
 a:focus,
 a:active {
   text-decoration: none;
 }
+
 .logo {
   float: left;
   margin-left: 15px;
@@ -29,11 +33,13 @@ a:active {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-  color: #28352f
+  color: #28352f;
 }
+
 li {
   list-style-type: none;
 }
+
 li i {
   font-size: 15px;
   float: right;
@@ -41,6 +47,7 @@ li i {
   margin-top: 15px;
   color: #8f8f90;
 }
+
 .title-1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -52,6 +59,7 @@ li i {
   margin-bottom: 5px;
   margin-top: 65px;
 }
+
 .title-2 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -63,6 +71,7 @@ li i {
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .text-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -75,16 +84,18 @@ li i {
   padding-right: 24px;
   margin-top: 5px;
 }
+
 .icons-homep {
   display: flex;
   justify-content: center;
   margin-top: 0px;
 }
+
 .icons-homep li i {
   font-size: 20px;
   color: #505f79;
-  ;
 }
+
 .fa-chevron-down {
   font-size: 20px;
   align-self: center;
@@ -93,11 +104,13 @@ li i {
   padding: 4%;
   margin-top: 10%;
 }
+
 .icons-homep > a
 a:link,
 a:visited {
   color: #557fc9;
 }
+
 .ico-feature:hover {
   opacity: 50%;
 }
