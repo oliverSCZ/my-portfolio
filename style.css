@@ -17,13 +17,6 @@ body {
   background-size: cover;
 }
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-}
-
 .logo {
   float: left;
   margin-left: 15px;
