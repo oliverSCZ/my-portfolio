@@ -99,8 +99,11 @@ li {
   margin-top: 10%;
 }
 
-.icons-homep > a
-a:link,
+
+a:link {
+  color: #557fc9;
+}
+
 a:visited {
   color: #557fc9;
 }
@@ -109,7 +112,7 @@ a:visited {
   opacity: 50%;
 }
 
-/*------ Section Card Works--------*/
+/* ------ Section Card Works-------- */
 #works {
   display: grid;
   grid-template-columns: auto;
@@ -119,6 +122,7 @@ a:visited {
   padding-top: 7%;
   grid-row-gap: 25px;
 }
+
 .title-card-global {
   display: flex;
   justify-content: center;
@@ -130,11 +134,13 @@ a:visited {
   color: #172b4d;
   text-align: center;
 }
+
 .hr-division {
   border: 4px solid #36b37e;
   border-radius: 24px;
   width: 48px;
 }
+
 #card-work1 {
   display: flex;
   flex-direction: column;
@@ -143,12 +149,14 @@ a:visited {
   border-radius: 14px;
   border: 1px solid #ebf0ee;
 }
+
 .card-bkg {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   border-radius: 14px;  
 }
+
 .title-card {
   display: flex;
   justify-content: center;
@@ -160,17 +168,20 @@ a:visited {
   line-height: 32px;
   margin-bottom: 15px;
 }
+
 .btn-programs {
   display: flex;
   justify-content: space-around;
   padding-left: 0;
   margin-top: 6px;
 }
+
 .btn-programs li {
   background-color: #ebf0ee;
   padding: 2%;
   border-radius: 5px;
 }
+
 .btn-programs li a {
   color: #3a4a42;
   font-family: "Inter",sans-serif;
@@ -195,7 +206,7 @@ a:visited {
   color: #ffffff !important;
   margin-bottom: 7%;
 }
-/*------- About me section--------*/
+/* ------- About me section-------- */
 #about-me {
   display: grid;
   grid-template-columns: auto;
@@ -268,11 +279,13 @@ a:visited {
   padding-left: 0;
   margin-top: 6px;
 }
+
 .lang-programs li {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 2%;
   border-radius: 5px;
 }
+
 .lang-programs li a {
   color: #36b37e;
   font-family: "Inter",sans-serif;
@@ -294,11 +307,12 @@ a:visited {
 }
 
 .lang-frameworks li {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 3%;
   border-radius: 5px;
   margin-right: 10px;
 }
+
 .lang-frameworks li a {
   color: #36b37e;
   font-family: "Inter",sans-serif;
@@ -311,7 +325,7 @@ a:visited {
 
 .lang-skills {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   padding-left: 0;
@@ -320,7 +334,7 @@ a:visited {
 }
 
 .lang-skills li {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 3%;
   border-radius: 5px;
   margin-right: 10px;
@@ -335,7 +349,7 @@ a:visited {
   line-height: 16px;
   text-decoration: none;
 }
-/*------Form  Section---------*/
+/* ------Form  Section--------- */
 #form {
   display: grid;
   grid-template-columns: auto;
@@ -343,6 +357,7 @@ a:visited {
   margin-top: 0;
   grid-row-gap: 25px;
 }
+
 .text-form {
   display: flex;
   width: 327px;
@@ -350,6 +365,7 @@ a:visited {
   justify-content: center;
   text-align: center;
 }
+
 .title-form {
   display: flex;
   justify-content: center;
@@ -360,6 +376,7 @@ a:visited {
   line-height: 52px;
   color:#172b4d;
 }
+
 contact {
   display: flex;
   flex-direction: column;
