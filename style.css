@@ -253,18 +253,32 @@ a:visited {
 }
 
 .img-globe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
+  position: relative;
+  width: 327px;
+  height: 128px;
+  left: calc(50% - 327px/2);
+  top: 16px;
+}
+
+.container-img {
+  position: absolute;
+  background-color: #fff;
   border-radius: 50%;
   width: 80px;
   height: 80px;
-  margin-left: 40%;
-  margin-top: 20%;
-  box-shadow: 1px 5px 5px silver;
+  left: 124px;
+  top: 24px;
+  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
 }
 
+#globe-img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: calc(50% - 48px/2 + 0.5px);
+  top: calc(50% - 48px/2);
+}
+ 
 .title-lang {
   font-family: "Inter", sans-serif;
   font-style: normal;
