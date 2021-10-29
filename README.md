@@ -6,7 +6,7 @@
 
 ![screenshot](./app_screenshot.png)
 
-Setup and mobile version skeletons.
+Setup and mobile version of my portfolio.
 
 ## Built With
 
@@ -31,7 +31,7 @@ Google Chrome browser
 Open index.html file with google chrome and right clic in any part of the page and go to Inspect option and enable display mobile.
 
 ### Deployment
-For better results you can put the resolution in 363x690 
+For better results you can put the resolution in Iphone6/7/8
 
 
 
