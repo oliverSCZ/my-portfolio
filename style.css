@@ -153,15 +153,15 @@ a:visited {
 .card-bkg {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
-  border-radius: 14px;  
+  background-color: #fff;
+  border-radius: 14px;
 }
 
 .title-card {
   display: flex;
   justify-content: center;
   text-align: center;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -195,25 +195,26 @@ a:visited {
 .btn-see-project {
   display: flex;
   align-self: center;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px; 
-  background-color: #36B37F;
+  font-size: 17px;
+  background-color: #36b37f;
   border-radius: 4px;
   padding: 12px;
   text-decoration: none;
-  color: #ffffff !important;
+  color: #fff !important;
   margin-bottom: 7%;
 }
 /* ------- About me section-------- */
 #about-me {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 390px 352px 352px 352px ;
+  grid-template-rows: 390px 352px 352px 352px;
   margin-top: 0;
   grid-row-gap: 25px;
 }
+
 .about-me-presentation {
   display: flex;
   flex-direction: column;
@@ -288,7 +289,7 @@ a:visited {
 
 .lang-programs li a {
   color: #36b37e;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -298,7 +299,7 @@ a:visited {
 
 .lang-frameworks {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
   padding-left: 0;
@@ -315,7 +316,7 @@ a:visited {
 
 .lang-frameworks li a {
   color: #36b37e;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -342,7 +343,7 @@ a:visited {
 
 .lang-skills li a {
   color: #36b37e;
-  font-family: "Inter",sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -361,7 +362,7 @@ a:visited {
 .text-form {
   display: flex;
   width: 327px;
-  margin: 0px 24px 0px 24px;
+  margin: 0 24px 0 24px;
   justify-content: center;
   text-align: center;
 }
@@ -374,21 +375,7 @@ a:visited {
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color:#172b4d;
-}
-
-contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.contact-text {
   color: #172b4d;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
 }
 
 .contact-form {
@@ -513,4 +500,4 @@ footer {
 .footer-hr {
   position: bottom;
   padding: 20%;
-}  
+}
