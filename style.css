@@ -256,7 +256,7 @@ a:visited {
   position: relative;
   width: 327px;
   height: 128px;
-  left: calc(50% - 327px/2);
+  left: calc(50% - 327px / 2);
   top: 16px;
 }
 
@@ -268,17 +268,17 @@ a:visited {
   height: 80px;
   left: 124px;
   top: 24px;
-  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
 #globe-img {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: calc(50% - 48px/2 + 0.5px);
-  top: calc(50% - 48px/2);
+  left: calc(50% - 48px / 2 + 0.5px);
+  top: calc(50% - 48px / 2);
 }
- 
+
 .title-lang {
   font-family: "Inter", sans-serif;
   font-style: normal;
