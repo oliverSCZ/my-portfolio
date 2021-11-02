@@ -208,19 +208,19 @@
     <form class="contact-form" action="https://formspree.io/f/mpzkevow" method="POST">
       <ul>
         <li>
-          <input type="text" name="name" class="form-input" placeholder="Full name" >
+          <input type="text" name="name" class="form-input" placeholder="Full name" maxlength="30" required>
         </li>
         <li>
-          <input type="text" name="email-address" class="form-input" placeholder="Email address" >                           
+          <input type="text" name="email-address" class="form-input" placeholder="Email address" required>                           
         </li>
         <li class="comment">    
-          <textarea name="comment" class="form-input" placeholder="Enter text here" ></textarea>
+          <textarea name="comment" maxlength="500" class="form-input" placeholder="Enter text here" required></textarea>
         </li>
         <li>
           <div class="contact-illustration"></div>
         </li>
         <li> 
-          <input class="submit" type="submit" name="submit" value="Get in touch">
+          <button class="submit" type="submit" name="submit">Get in touch</button>
         </li>  
       </ul>     
     </form>
