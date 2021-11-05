@@ -42,6 +42,10 @@ li {
   color: #8f8f90;
 }
 
+.navbar a {
+  display: none;
+}
+
 .title-1 {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -91,6 +95,7 @@ li {
 }
 
 .fa-chevron-down {
+  color: #acb7c3;
   font-size: 20px;
   align-self: center;
   border-radius: 50%;
@@ -115,7 +120,7 @@ a:visited {
 #works {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 200px 474px 474px 474px 474px 474px 474px;
+  grid-template-rows: 474px 474px 474px 474px 474px 474px;
   margin: 7%;
   margin-top: 0;
   padding-top: 7%;
@@ -124,14 +129,18 @@ a:visited {
 
 .title-card-global {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  text-align: center;
+  width: 327px;
+  height: 97px;
+  margin: 24px;
+  justify-content: center;
 }
 
 .hr-division {
@@ -211,7 +220,7 @@ a:visited {
 #about-me {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 390px 352px 352px 352px;
+  grid-template-rows: 390px 352px 352px;
   margin-top: 0;
   grid-row-gap: 25px;
 }
@@ -239,6 +248,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 70px 57px;
+  margin-bottom: 30px;
 }
 
 .lang-content {
@@ -398,6 +408,7 @@ a:visited {
 .contact-form {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 input {
@@ -407,6 +418,10 @@ input {
   font-weight: 400;
   line-height: 15px;
   padding-left: 16px;
+}
+
+input[name="lastname"] {
+  display: none;
 }
 
 input[name="name"],
@@ -476,6 +491,14 @@ textarea:focus {
   background-repeat: no-repeat;
 }
 
+.contact-illustration2 {
+  display: none;
+}
+
+.contact-illustration3 {
+  display: none;
+}
+
 .submit {
   color: white;
   border-radius: 4px;
@@ -495,10 +518,18 @@ textarea:focus {
 }
 
 footer {
-  height: 320px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.blank-space {
+  display: none;
+}
+
+.desktop-separator {
+  display: none;
 }
 
 .e-mail {
@@ -515,5 +546,5 @@ footer {
 }
 
 .footer-hr {
-  padding: 20%;
+  padding: 30px 0 0;
 }
