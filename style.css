@@ -421,7 +421,7 @@ input {
 }
 
 input[name="lastname"] {
- display: none;
+  display: none;
 }
 
 input[name="name"],
@@ -490,7 +490,9 @@ textarea:focus {
   background-image: url(images/illustration-contact-form.png);
   background-repeat: no-repeat;
 }
-.contact-illustration2, .contact-illustration3 {
+
+.contact-illustration2, 
+.contact-illustration3 {
   display: none;
 }
 
@@ -541,5 +543,5 @@ footer {
 }
 
 .footer-hr {
-  padding: 30px 0px 0px;
+  padding: 30px 0 0;
 }
