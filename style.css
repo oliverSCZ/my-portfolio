@@ -491,7 +491,10 @@ textarea:focus {
   background-repeat: no-repeat;
 }
 
-.contact-illustration2, 
+.contact-illustration2 {
+  display: none;
+}
+
 .contact-illustration3 {
   display: none;
 }
