@@ -48,6 +48,7 @@
     background-position-x: center;
     background-position-y: top;
     padding: 270px 0;
+    transition: background 3s;
   }
 
   .title-1 {
