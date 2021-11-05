@@ -48,7 +48,6 @@
     background-position-x: center;
     background-position-y: top;
     padding: 270px 0;
-
   }
 
   .title-1 {
@@ -99,7 +98,6 @@
     width: 920px;
     height: 96px;
     top: 298px;
-
   }
 
   .icons-homep {
@@ -115,7 +113,6 @@
   .icons-homep li i {
     font-size: 26px;
     color: #505f79;
-
   }
 
   .fa-chevron-down {
@@ -221,7 +218,6 @@
     background-color: #fff;
     padding: 4%;
     border-radius: 5px;
-
   }
 
   .lang-programs li a {
@@ -298,12 +294,11 @@
     justify-content: center;
     width: 100%;
     height: 490px;
-
   }
 
   .text-form {
     display: flex;
-    width: 463pxpx;
+    width: 463px;
     margin: 0 24px 0 24px;
     justify-content: center;
     text-align: center;
@@ -323,7 +318,6 @@
 
   .contact-form {
     display: flex;
-
   }
 
   input {
@@ -402,7 +396,6 @@
     padding-bottom: 0;
   }
 
-
   .contact-illustration1 {
     position: absolute;
     z-index: -1;
@@ -478,7 +471,6 @@
     display: none;
   }
   
-
   .footer-division {
     display: block;
     height: 1px;
