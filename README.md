@@ -5,18 +5,23 @@
 > This is my showcase of my recently works
 
 ![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot1.png)
+![screenshot](./app_screenshot2.png)
+![screenshot](./app_screenshot3.png)
+![screenshot](./app_screenshot4.png)
+![screenshot](./app_screenshot5.png)
 
 Setup and mobile version of my portfolio.
 
 ## Built With
 
-- HtML file
+- HTML file
 - CSS file
-- linter
+- Linter
 
 ## Live Demo
 
-[Live Demo Link](https://oliverscz.github.io/mobile-version-project/)
+[Live Demo Link](https://oliverscz.github.io/mobile-version-project/) 
 
 
 ## Getting Started
