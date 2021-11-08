@@ -5,11 +5,6 @@
 > This is my showcase of my recently works
 
 ![screenshot](./app_screenshot.png)
-![screenshot](./app_screenshot1.PNG)
-![screenshot](./app_screenshot2.png)
-![screenshot](./app_screenshot3.png)
-![screenshot](./app_screenshot4.png)
-![screenshot](./app_screenshot5.png)
 
 Setup and mobile version of my portfolio.
 
