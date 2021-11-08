@@ -10,13 +10,13 @@ Setup and mobile version of my portfolio.
 
 ## Built With
 
-- HtML file
+- HTML file
 - CSS file
-- linter
+- Linter
 
 ## Live Demo
 
-[Live Demo Link](https://oliverscz.github.io/mobile-version-project/)
+[Live Demo Link](https://oliverscz.github.io/mobile-version-project/) 
 
 
 ## Getting Started
