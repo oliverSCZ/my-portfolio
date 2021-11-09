@@ -44,6 +44,7 @@ li {
 
 .navbar a {
   display: none;
+  outline-color: #041430;
 }
 
 .title-1 {

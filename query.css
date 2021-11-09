@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     color: #172b4d;
-    background-color: white;
+    outline-color: #172b4d;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
