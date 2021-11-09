@@ -313,7 +313,7 @@ a:visited {
 }
 
 .lang-programs li a {
-  color: #36b37e;
+  color: #008552;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -340,7 +340,7 @@ a:visited {
 }
 
 .lang-frameworks li a {
-  color: #36b37e;
+  color: #008552;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -367,7 +367,7 @@ a:visited {
 }
 
 .lang-skills li a {
-  color: #36b37e;
+  color: #008552;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
