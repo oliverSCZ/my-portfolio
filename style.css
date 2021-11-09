@@ -108,8 +108,12 @@ a:link {
   color: #557fc9;
 }
 
+a:hover {
+  color: #36b37f;
+}
+
 a:visited {
-  color: #557fc9;
+  color: #008552;
 }
 
 .ico-feature:hover {
@@ -413,7 +417,7 @@ a:visited {
 
 input {
   color: #091e42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -431,7 +435,7 @@ input[name="email-address"] {
 }
 
 input:placeholder-shown {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #6b778c;
   font-size: 15px;
   line-height: 24px;
@@ -448,7 +452,7 @@ input:focus {
 
 textarea {
   color: #091e42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
@@ -458,7 +462,7 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
