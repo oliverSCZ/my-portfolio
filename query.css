@@ -135,6 +135,7 @@
 
   a:focus {
     filter: contrast(50%);
+    outline-color: black;
   }
 
   .ico-feature:hover {
