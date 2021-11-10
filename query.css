@@ -133,6 +133,10 @@
     color: #557fc9;
   }
 
+  a:focus {
+    filter: contrast(50%);
+  }
+
   .ico-feature:hover {
     opacity: 50%;
   }
