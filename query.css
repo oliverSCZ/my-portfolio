@@ -134,8 +134,7 @@
   }
 
   a:focus {
-    filter: contrast(50%);
-    outline-color: black;
+    text-decoration: none;
   }
 
   .ico-feature:hover {
