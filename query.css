@@ -134,7 +134,7 @@
   }
 
   a:focus {
-    text-decoration: none;
+    outline: 3px solid black;
   }
 
   .ico-feature:hover {
