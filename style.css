@@ -113,6 +113,10 @@ a:visited {
   color: #557fc9;
 }
 
+a:focus {
+  text-decoration: none;
+}
+
 .ico-feature:hover {
   opacity: 50%;
 }
