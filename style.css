@@ -27,10 +27,13 @@ header {
   align-items: center;
   line-height: 100px;
   transition: all 0.5s ease;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
+  opacity: 0%;
+  height: 500px;
 }
 .menu.active {
-  transform: translateX(0);
+  transform: translateY(0);
+  opacity: 100%;
 }
 
 #headline {
