@@ -58,9 +58,9 @@
     color: yellowgreen;
   }
   .menu-btn {
+    display: none;
     font-size: 20px;
     cursor: pointer;
-    display: flex;
     outline: 1px solid;
   }
 

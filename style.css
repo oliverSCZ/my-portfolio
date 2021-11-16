@@ -10,7 +10,11 @@ header {
 }
 
 .menu-btn {
-  display: none;
+  position: absolute;
+  right: 0px;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-size: 20px;
 }
 .menu {
   position: fixed;
