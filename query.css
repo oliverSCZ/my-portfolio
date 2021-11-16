@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
   header {
     position: absolute;
     display: flex;
@@ -13,7 +13,7 @@
     display: none;
   }
 
-  .navbar i {
+  /* .navbar i {
     display: none;
   }
 
@@ -39,6 +39,29 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+  } */
+
+  .menu {
+    display: flex;
+  }
+  .menu li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  .menu .menu-i {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .menu .menu-i:hover {
+    color: yellowgreen;
+  }
+  .menu-btn {
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    outline: 1px solid;
   }
 
   #headline {
