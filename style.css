@@ -7,8 +7,14 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+ 
 }
-
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+   background-color: #fff;
+}
 .menu-btn {
   position: absolute;
   right: 0px;
@@ -16,9 +22,27 @@ header {
   margin-right: 5%;
   font-size: 20px;
 }
+
+.menu-close {
+  position: absolute;
+  right: 0px;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-size: 20px;
+  visibility: hidden;
+}
+.menu-btn-close {
+  visibility: hidden;
+}
+
+.close-act {
+  visibility: visible;
+}
+
 .menu {
-  position: fixed;
-  top: 8vh;
+  
+  position: absolute;
+  top: 0;
   left: 0;
   background: #fff;
   width: 100%;
@@ -29,7 +53,18 @@ header {
   transition: all 0.5s ease;
   transform: translateY(-100%);
   opacity: 0%;
-  height: 500px;
+  height: 90vh;
+  border-radius: 30px;
+  
+}
+
+.menu-i {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+color: #3a4a42;
 }
 .menu.active {
   transform: translateY(0);
@@ -61,17 +96,17 @@ li {
   padding-right: 7%;
 }
 
-.navbar i {
+/* .navbar i {
   font-size: 15px;
   float: right;
   margin-right: 30px;
   margin-top: 15px;
   color: #8f8f90;
-}
+} */
 
-.navbar a {
+/* .navbar a {
   display: none;
-}
+} */
 
 .title-1 {
   font-family: "Inter", sans-serif;
@@ -102,7 +137,7 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 18px;
   text-align: center;
   color: #172b4d;
   padding-left: 24px;
@@ -131,8 +166,13 @@ li {
   margin-top: 10%;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
-  color: #557fc9;
+  color: #28352f;
+
 }
 
 a:hover {
@@ -140,7 +180,7 @@ a:hover {
 }
 
 a:visited {
-  color: #008552;
+  color: #28352f;
 }
 
 .ico-feature:hover {

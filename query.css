@@ -8,28 +8,34 @@
     width: 100vw;
     padding: 0;
   }
-
+  .sticky {
+    position: absolute;
+    height: 50px;
+  }
   .logo {
     display: none;
   }
-
-  /* .navbar i {
-    display: none;
+  
+  .navbar {
+    display: flex;
   }
-
+  
   header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 255px;
   }
-
+  
   .navbar li {
     list-style: none;
     padding-right: 5%;
     text-decoration: none;
   }
-
+  
+  .navbar i {
+    display: flex;
+  }
   .navbar a {
     display: flex;
     justify-content: space-between;
@@ -39,24 +45,26 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-  } */
-
+  } 
   .menu {
+    position: absolute;
     display: flex;
   }
-  .menu li {
+
+  /* .menu li {
     list-style: none;
     margin: 0 15px;
-  }
-  .menu .menu-i {
+  } */
+  /* .menu .menu-i {
     text-decoration: none;
     color: yellow;
     font-weight: bold;
     transition: all 0.3s ease;
-  }
-  .menu .menu-i:hover {
+  } */
+  /* .menu .menu-i:hover {
     color: yellowgreen;
   }
+   */
   .menu-btn {
     display: none;
     font-size: 20px;
