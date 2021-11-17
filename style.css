@@ -9,6 +9,68 @@ header {
   justify-content: space-between;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.menu-btn {
+  position: absolute;
+  right: 0;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-size: 20px;
+}
+
+.menu-close {
+  position: absolute;
+  right: 0;
+  margin-top: 2%;
+  margin-right: 5%;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+.menu-btn-close {
+  visibility: hidden;
+}
+
+.close-act {
+  visibility: visible;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  line-height: 100px;
+  transition: all 0.5s ease;
+  transform: translateY(-100%);
+  opacity: 0%;
+  height: 90vh;
+  border-radius: 30px;
+}
+
+.menu-i {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.menu.active {
+  transform: translateY(0);
+  opacity: 100%;
+}
+
 #headline {
   display: flex;
   flex-direction: column;
@@ -32,18 +94,6 @@ header {
 li {
   list-style-type: none;
   padding-right: 7%;
-}
-
-.navbar i {
-  font-size: 15px;
-  float: right;
-  margin-right: 30px;
-  margin-top: 15px;
-  color: #8f8f90;
-}
-
-.navbar a {
-  display: none;
 }
 
 .title-1 {
@@ -75,7 +125,7 @@ li {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 18px;
   text-align: center;
   color: #172b4d;
   padding-left: 24px;
@@ -104,8 +154,12 @@ li {
   margin-top: 10%;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
-  color: #557fc9;
+  color: #28352f;
 }
 
 a:hover {
@@ -113,7 +167,7 @@ a:hover {
 }
 
 a:visited {
-  color: #008552;
+  color: #28352f;
 }
 
 .ico-feature:hover {
@@ -153,7 +207,7 @@ a:visited {
   width: 48px;
 }
 
-#card-work1 {
+.card-work1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -285,7 +339,7 @@ a:visited {
   box-shadow: 0 16px 24px rgba(37, 47, 137, 0.08);
 }
 
-#globe-img {
+.globe-img {
   position: absolute;
   width: 48px;
   height: 48px;
