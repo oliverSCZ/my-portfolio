@@ -8,19 +8,18 @@
     width: 100vw;
     padding: 0;
   }
-  
+
   .logo {
     display: none;
   }
-  
+
   header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 255px;
   }
-  
-  
+
   .menu {
     position: absolute;
     flex-direction: row;
@@ -38,18 +37,18 @@
     left: 0px;
     border-radius: 0px;
   }
-  
+
   .menu.active {
     transform: translateY(100%);
     display: flex;
-    
   }
+
   .sticky {
     position: fixed;
     top: 0px;
     width: 100%;
   }
-  
+
   .navbar a {
     display: flex;
     justify-content: space-between;
@@ -59,34 +58,33 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-  } 
-  
+  }
+
   .navbar li {
     list-style: none;
     margin: 0 15px;
     background-color: white;
-    
   }
+
   .navbar .menu-i {
     text-decoration: none;
     color: #344563;
     font-weight: bold;
     transition: all 0.3s ease;
   }
+
   .navbar .menu-i:hover {
     color: #344563;
   }
-  
+
   .menu-btn {
     display: none;
     font-size: 20px;
     cursor: pointer;
     outline: 1px solid;
-    
   }
-  
+
   #headline {
-    
     background-image: url(images/Header-llustration-desktop@2x.png);
     background-repeat: no-repeat;
     background-size: cover;
