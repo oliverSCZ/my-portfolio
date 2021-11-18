@@ -158,6 +158,10 @@
     color: #505f79;
   }
 
+  .popup-buttons i {
+    margin-left: 10px;
+  }
+
   .fa-chevron-down {
     color: #acb7c3;
     align-self: center;
@@ -578,8 +582,8 @@
     font-size: 18px;
     padding: 2px 7px;
     border-radius: 3px;
-
   }
+
   .close:hover,
   .close:focus {
     color: black;
@@ -610,7 +614,7 @@
   .popup-button {
     display: flex;
     flex-direction: row;
-    background-color: #36B37E;
+    background-color: #36b37e;
     border-radius: 6px;
     margin: 0 2px;
     padding: 9px 10px;
@@ -621,7 +625,7 @@
   }
 
   .popup-button:hover {
-    background-color: #1BD185;
+    background-color: #1bd185;
     box-shadow: 0 0 16px rgba(54, 179, 127, 0.24);
   }
 
@@ -632,7 +636,7 @@
 
   .popup-tags p {
     margin: 10px 5px;
-    background-color: #Ebecf0;
+    background-color: #ebecf0;
     padding: 5px 10px;
     border-radius: 6px;
     color: #344563;
@@ -653,13 +657,8 @@
     color: #344563;
   }
 
-  .popup-buttons i {
-    margin-left: 10px;
-  }
-
   .popup-buttons-mobile,
   .popup-button-mobile {
     display: none;
   }
-
 }
