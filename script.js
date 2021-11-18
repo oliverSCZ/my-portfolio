@@ -49,19 +49,6 @@ document.getElementById('project-1').addEventListener('click', () => {
     }, 300);
   });
   
-  document.getElementById('project-5').addEventListener('click', () => {
-    document.getElementById('modal-popup').classList.add('popup-visible');
-    setTimeout(() => {
-      document.getElementById('modal-popup').classList.add('popup-transparency');
-    }, 300);
-  });
-  
-  document.getElementById('project-6').addEventListener('click', () => {
-    document.getElementById('modal-popup').classList.add('popup-visible');
-    setTimeout(() => {
-      document.getElementById('modal-popup').classList.add('popup-transparency');
-    }, 300);
-  });
 
     document.getElementById('close-popup').addEventListener('click', () =>{
     document.getElementById('modal-popup').classList.remove('popup-transparency');
