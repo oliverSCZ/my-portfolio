@@ -177,6 +177,7 @@ a:visited {
 .ico-feature:hover {
   opacity: 50%;
 }
+
 .popup-visible {
   visibility: visible !important;
 }
@@ -200,7 +201,7 @@ a:visited {
 .content-popup {
   align-items: center;
   justify-content: center;
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   margin: 30px auto; /* 15% from the top and centered */
   padding: 20px;
   width: 90%; /* Could be more or less, depending on screen size */
@@ -245,7 +246,7 @@ a:visited {
   font-family: “Poppins”, sans-serif;
   font-weight: 700;
   font-size: 32px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 16px;
 }
 
@@ -268,7 +269,7 @@ a:visited {
 
 .popup-button-mobile {
   display: block;
-  background-color: #36B37E;
+  background-color: #36b37e;
   border-radius: 4px;
   width: 50%;
   margin: 10px 5px;
@@ -277,18 +278,21 @@ a:visited {
   transition: all 0.4s ease-in-out;
   color: white;
 }
+
 .popup-button:hover {
-  background-color: #1BD185;
+  background-color: #1bd185;
   box-shadow: 0 0 16px rgba(54, 179, 127, 0.24);
 }
+
 .popup-tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .popup-tags p {
   margin: 5px;
-  background-color: #EBECF0;
+  background-color: #ebecf0;
   padding: 5px 10px;
   border-radius: 6px;
   color: #344563;
@@ -296,6 +300,7 @@ a:visited {
   font-size: 14px;
   cursor: pointer;
 }
+
 .popup-paragraph {
   margin-top: 12px;
   font-family: “Poppins”, sans-serif;
@@ -303,6 +308,7 @@ a:visited {
   line-height: 30px;
   color: #344563;
 }
+
 .popup-buttons-mobile i {
   margin-left: 10px;
 }
