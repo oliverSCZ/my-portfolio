@@ -181,12 +181,16 @@ a:visited {
   left: 0;
   top: 0;
   width: 100%; /* Full width */
-  height: 100vh; /* Full height */
+  height: 90vh; /* Full height */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   backdrop-filter: blur(10px);
   transition: all 0.5s ease-in-out;
   opacity: 0%;
+}
+
+.popup-visible {
+  visibility: visible !important;
 }
 
 .content-popup {
