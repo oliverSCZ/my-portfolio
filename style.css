@@ -148,6 +148,10 @@ li {
   color: #505f79;
 }
 
+.popup-buttons-mobile i {
+  margin-left: 10px;
+}
+
 .fa-chevron-down {
   color: #acb7c3;
   font-size: 20px;
@@ -309,11 +313,8 @@ a:visited {
   color: #344563;
 }
 
-.popup-buttons-mobile i {
-  margin-left: 10px;
-}
-
 /* ------ Section Card Works-------- */
+
 #works {
   display: grid;
   grid-template-columns: auto;
