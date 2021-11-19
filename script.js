@@ -308,7 +308,7 @@ document.getElementById('submit').addEventListener('click', (event) => {
       setTimeout(() => {
         input.removeChild(error);
         document.getElementById('email').classList.remove('error-input');
-      },4000);
+      }, 4000);
       canSubmit = false;
     }
     return canSubmit;
