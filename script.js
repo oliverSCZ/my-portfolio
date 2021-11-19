@@ -205,15 +205,6 @@ const clickForPopUp = (projects) => {
   });
 };
 
-const userData = [];
-
-class User {
-  constructor(name, email) {
-    this.name = name;
-    this.email = email;
-  }
-}
-
 window.onload = () => {
   loadProject(projects);
   displayTech(projects);
