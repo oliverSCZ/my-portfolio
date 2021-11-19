@@ -58,6 +58,7 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
+    transition: font-size 0.5s;
   }
 
   .navbar li {
@@ -91,6 +92,7 @@
     background-position-x: center;
     background-position-y: top;
     padding: 270px 0;
+    transition: background 3s;
   }
 
   .title-1 {
