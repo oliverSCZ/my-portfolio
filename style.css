@@ -301,7 +301,7 @@ a:visited {
 
 .project-langs {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   padding-left: 0;
   gap: 20px;
   flex-wrap: wrap;
