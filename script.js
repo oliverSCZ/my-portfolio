@@ -313,3 +313,16 @@ document.getElementById('submit').addEventListener('click', (event) => {
     }
     return canSubmit;
   }
+
+  function validate() {
+    checkMail();
+
+    if (canSubmit === false) {
+      event.preventDefault();
+    }
+  }
+
+  validate();
+});
+
+/* CONTACT FORM VALIDATION */
