@@ -244,8 +244,8 @@
 
   .project-langs {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    padding-left: 10px;
     margin-bottom: 0;
     margin-top: 0;
     gap: 10px;
@@ -253,13 +253,16 @@
   }
 
   .project-lang {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
     flex: 0 1 auto;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 0;
-    color: #3a4a42;
+    color: #344563;
     order: 0;
     border-radius: 8px;
-    background-color: #ebf0ee;
+    background-color: #ebecf0;
     white-space: nowrap;
   }
 
@@ -762,6 +765,7 @@
   }
 
   .cont-title {
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
@@ -786,7 +790,10 @@
   }
 
   .pop-up-desc {
+    font-family: 'Inter', sans-serif;
     color: #344563;
+    font-style: normal;
+    font-weight: normal;
     width: 90%;
     font-size: 16px;
     line-height: 30px;
@@ -800,16 +807,18 @@
     margin-top: 0;
     margin-left: auto;
     margin-bottom: auto;
-    width: 30%;
+    width: 45%;
     top: 10px;
     right: 0;
   }
 
   .popUpBtn {
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     font-size: 15px;
     line-height: 20px;
-    width: 115px;
+    width: 160px !important;
     height: 48px;
   }
 
@@ -819,12 +828,12 @@
     top: 15px;
     right: 20px;
     font-size: 20px;
-    height: 35px;
+    height: 24px;
     width: 35px;
     text-align: center;
     z-index: 2;
     cursor: pointer;
-    padding: 5px;
+    padding: 3px;
     color: #636f7c;
     background-color: #ddd;
     border: 2px solid #ddd;
