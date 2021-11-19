@@ -571,6 +571,21 @@
     border: 1px solid red;
   }
 
+  .card-btn:hover p {
+    color: rgb(41, 41, 41);
+  }
+
+  .popup-tags p {
+    margin: 10px 5px;
+    background-color: #ebecf0;
+    padding: 5px 10px;
+    border-radius: 6px;
+    color: #344563;
+    font-family: “Poppins”, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
   #errordiv p {
     font-family: "Poppins", sans-serif;
     color: red;
@@ -705,21 +720,6 @@
   .popup-tags {
     display: flex;
     flex-direction: row;
-  }
-
-  .popup-tags p {
-    margin: 10px 5px;
-    background-color: #ebecf0;
-    padding: 5px 10px;
-    border-radius: 6px;
-    color: #344563;
-    font-family: “Poppins”, sans-serif;
-    font-size: 14px;
-    cursor: pointer;
-  }
-
-  .card-btn:hover p {
-    color: rgb(41, 41, 41);
   }
 
   .popup-paragraph {
