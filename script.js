@@ -32,7 +32,7 @@ const projects = [
       'CSS',
       'JavaScript',
       'GitHub',
-      'Codepen'
+      'Codepen',
     ],
     liveVersion: 'https://codepen.io/oliverscz/pen/WNOqWJw',
     gitHubRepo: 'https://codepen.io/oliverscz/pen/WNOqWJw',
@@ -214,64 +214,8 @@ class User {
   }
 }
 
-function saveDataToLs() {
-  localStorage.setItem('userData', JSON.stringify(userData));
-}
-
-function getDataFromForm() {
-  const newUser = new User(nameInput.value, emailInput.value);
-  userData.length = 0;
-  userData.push(newUser);
-  saveDataToLs();
-}
-
-function getDataFromLocalSt() {
-  const dataFromLocal = JSON.parse(localStorage.getItem('userData'));
-  if (dataFromLocal) {
-    dataFromLocal.forEach((data) => {
-      nameInput.value = data.name;
-      emailInput.value = data.email;
-    });
-  }
-}
-
-form.addEventListener('submit', getDataFromForm);
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  const capitalLetters = [];
-
-  const emailCheck = emailInput.value.split('');
-  for (let i = 0; i < emailCheck.length; i += 1) {
-    if (!/[a-z]/.test(emailCheck[i]) && /[A-Z]/.test(emailCheck[i])) {
-      capitalLetters.push(emailCheck[i]);
-    }
-  }
-
-  function errorMessage() {
-    invalidH3.textContent = 'Please enter your email in lower case';
-    invalidH3.style.display = 'block';
-    invalidH3.style.color = 'red';
-    emailInput.style.border = 'thin solid red';
-    setTimeout(() => {
-      invalidH3.style.display = 'none';
-      emailInput.style.border = '1px solid #d0d9d4';
-    }, 3000);
-  }
-
-  function corectEmail() {
-    invalidH3.textContent = '';
-    form.submit();
-  }
-
-  if (capitalLetters.length > 0) errorMessage();
-  else corectEmail();
-});
-
 window.onload = () => {
   loadProject(projects);
   displayTech(projects);
   clickForPopUp(projects);
-  getDataFromLocalSt();
 };
