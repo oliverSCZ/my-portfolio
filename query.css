@@ -184,7 +184,7 @@
   }
 
   /* ------- Card Works -------- */
- 
+
   .indicator-div {
     display: none;
   }
@@ -263,8 +263,6 @@
     white-space: nowrap;
   }
 
-
-
   /* ------- About me section-------- */
 
   #about-me {
@@ -279,7 +277,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .btn-see-project {
     display: flex;
     align-self: center;
@@ -416,7 +414,6 @@
 
   .text-form {
     display: inline-block;
-    
     justify-content: center;
     text-align: center;
   }
@@ -451,13 +448,6 @@
     width: 100%;
     margin-right: 24px;
   }
-
-  /* input[name="lastname"] {
-    display: initial;
-    width: 100%;
-    width: 330px;
-    height: 48px;
-  } */
 
   input[name="email-address"] {
     height: 48px; 
@@ -730,7 +720,6 @@
     display: none;
   }
 
-  
   .pop-up-div {
     padding-top: 30px;
     position: fixed;
