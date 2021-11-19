@@ -444,13 +444,13 @@
   }
 
   input[name="name"] {
-    height: 48px; 
+    height: 48px;
     width: 100%;
     margin-right: 24px;
   }
 
   input[name="email-address"] {
-    height: 48px; 
+    height: 48px;
     width: 100%;
   }
 
