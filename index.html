@@ -156,7 +156,7 @@
                     <input type="text" name="lastname" class="form-input" placeholder="Last name" maxlength="30" required>
                 </li>
                 <li>
-                    <input type="email" name="email-address" class="form-input" placeholder="Email address" required>
+                    <div id="errordiv"><input type="email" name="email-address" class="form-input" placeholder="Email address" id="email" required></div>
                 </li>
                 <li class="comment">
                     <textarea name="comment" maxlength="500" class="form-input" placeholder="Enter text here" required></textarea>
@@ -165,7 +165,7 @@
                     <div class="contact-illustration"></div>
                 </li>
                 <li>
-                    <input class="submit" type="submit" name="submit" value="Get in touch">
+                    <input class="submit" type="submit" name="submit" id="submit" value="Get in touch">
                 </li>
             </ul>
         </form>
