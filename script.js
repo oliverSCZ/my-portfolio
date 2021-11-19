@@ -23,74 +23,151 @@ menu.addEventListener('click', () => {
 
 const projects = [
   {
-    name: 'Tribute Page Practice',
+    namepreview: 'Multi-Post Stories Gain+Glory',
+    name: 'Keeping track of hundreds of components',
     description:
-      'This project I did in the collaborative sessions, but only the skeleton and other stuffs. A few days ago, I improve it, using css.',
-    projectImg: './images/tributepage.jpg',
-    techologies: [
-      'HTML',
-      'CSS',
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
       'JavaScript',
-      'GitHub',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
       'Codepen',
     ],
-    liveVersion: 'https://codepen.io/oliverscz/pen/WNOqWJw',
-    gitHubRepo: 'https://codepen.io/oliverscz/pen/WNOqWJw',
+    techologiesMobile: [
+      'Ruby on rails',
+      'Css',
+      'JavaScript',
+    ],
+    liveVersion: 'https://github.com/oliverSCZ/mobile-version-project',
+    gitHubRepo: 'https://github.com/oliverSCZ/mobile-version-project',
   },
   {
+    namepreview: 'Multi-Post Stories Gain+Glory',
     name: 'Landing Page Practice',
     description:
-      'This project I did in the collaborative sessions, but only the skeleton and other stuffs. A few days ago, I improve it, using css',
-    projectImg: './images/landingpage.jpg',
-    techologies: [
-      'HTML',
-      'CSS',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
       'JavaScript',
-      'GitHub',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
       'Codepen',
     ],
     liveVersion: 'https://codepen.io/oliverscz/pen/NWgQwPY',
     gitHubRepo: 'https://codepen.io/oliverscz/pen/NWgQwPY',
   },
   {
+    namepreview: 'Multi-Post Stories Gain+Glory',
     name: 'Survey Form Practice',
     description:
-      'This project I did in the collaborative sessions, but only the skeleton and other stuffs. A few days ago, I improve it, using css.',
-    projectImg: './images/surveyform.jpg',
-    techologies: [
-      'HTML',
-      'CSS',
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
       'JavaScript',
-      'GitHub',
-      'GitFlow',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
     ],
     liveVersion: 'https://codepen.io/oliverscz/pen/zYdOrxB',
     gitHubRepo: 'https://codepen.io/oliverscz/pen/zYdOrxB',
   },
   {
+    namepreview: 'Multi-Post Stories Gain+Glory',
     name: 'Portfolio Mobile Webpage',
     description:
-      'I am continuously working on this project, as I receive training and new knowledge, I come here and add all that to this project.',
-    projectImg: './images/portfolio-project.jpg',
-    techologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'VScode'],
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
     liveVersion: 'https://github.com/oliverSCZ/mobile-version-project',
     gitHubRepo: 'https://github.com/oliverSCZ/mobile-version-project',
   },
   {
+    namepreview: 'Multi-Post Stories Gain+Glory',
     name: 'Portfolio Mobile Webpage',
     description:
-      'I am continuously working on this project, as I receive training and new knowledge, I come here and add all that to this project.',
-    projectImg: './images/portfolio-project.jpg',
-    techologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'VScode'],
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
     liveVersion: 'https://github.com/oliverSCZ/mobile-version-project',
     gitHubRepo: 'https://github.com/oliverSCZ/mobile-version-project',
   },
   {
+    namepreview: 'Multi-Post Stories Gain+Glory',
     name: 'Portfolio Mobile Webpage',
     description:
-      'I am continuously working on this project, as I receive training and new knowledge, I come here and add all that to this project.',
-    projectImg: './images/portfolio-project.jpg',
-    techologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'VScode'],
+    'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    projectImg: './images/Snapshoot_Portfolio.png',
+    projectImgMobile:'images/mobile_Portfolio.png',
+    techologiespreview: [
+      'Ruby on rails',
+      'Css',
+      'JavaScript',
+      'html',
+    ],
+    techologies: [
+      'Codekit',
+      'Github',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
+    ],
     liveVersion: 'https://github.com/oliverSCZ/mobile-version-project',
     gitHubRepo: 'https://github.com/oliverSCZ/mobile-version-project',
   },
@@ -107,7 +184,7 @@ const loadProject = (projects) => {
           alt="image placeholder"
         />
       </div>
-      <h3 class="project-title">${project.name}</h3>
+      <h3 class="project-title">${project.namepreview}</h3>
       <ul class="project-langs">
       
       </ul>
@@ -121,7 +198,7 @@ const loadProject = (projects) => {
 const displayTech = (projects) => {
   const techologList = [...document.querySelectorAll('.project-langs')];
   projects.forEach((project, i) => {
-    project.techologies.forEach((tech) => {
+    project.techologiespreview.forEach((tech) => {
       const textHtml = `
              <li class="project-lang">${tech}</li>
             `;
@@ -160,7 +237,7 @@ const clickForPopUp = (projects) => {
                   target="_blank"
                   rel="noopener"
                 >
-                  See source
+                  See live&nbsp;&nbsp;&nbsp;<i class="fas fa-satellite-dish"></i>
                 </a>
                 <a
                   class="button popUpBtn"
@@ -168,7 +245,7 @@ const clickForPopUp = (projects) => {
                   target="_blank"
                   rel="noopener"
                 >
-                  See live
+                  See source&nbsp;&nbsp;&nbsp;<i class="fab fa-github"></i>
                 </a>
               </div>
             </div>
