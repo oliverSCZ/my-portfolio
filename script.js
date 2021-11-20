@@ -326,3 +326,25 @@ document.getElementById('submit').addEventListener('click', (event) => {
 });
 
 /* CONTACT FORM VALIDATION */
+
+/* .LOCALSTORAGE */
+
+const formName = document.getElementById('name');
+const formSurname = document.getElementById('lastname');
+const formEmail = document.getElementById('email');
+const formMessage = document.getElementById('comment');
+
+const saveObjData = () => {
+  const formValues = {
+    name: formName.value,
+    surname: formSurname.value,
+    email: formEmail.value,
+    message: formMessage.value,
+  };
+  localStorage.setItem('data', JSON.stringify(formValues));
+};
+
+formName.addEventListener('keyup', saveObjData);
+formSurname.addEventListener('keyup', saveObjData);
+formEmail.addEventListener('keyup', saveObjData);
+formMessage.addEventListener('keyup', saveObjData);
