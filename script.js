@@ -348,3 +348,22 @@ formName.addEventListener('keyup', saveObjData);
 formSurname.addEventListener('keyup', saveObjData);
 formEmail.addEventListener('keyup', saveObjData);
 formMessage.addEventListener('keyup', saveObjData);
+
+function recoverData() {
+  const data = JSON.parse(localStorage.getItem('data'));
+  if (data.name.length !== 0) {
+    formName.value = data.name;
+  } if (data.surname.length !== 0) {
+    formSurname.value = data.surname;
+  } if (data.email.length !== 0) {
+    formEmail.value = data.email;
+  } if (data.message.length !== 0) {
+    formMessage.value = data.message;
+  }
+}
+window.addEventListener('load', () => {
+  if ('data' in localStorage) {
+    recoverData();
+  }
+});
+/* .LOCALSTORAGE */
