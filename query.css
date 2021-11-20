@@ -450,13 +450,20 @@
 
   input[name="name"] {
     height: 48px;
-    width: 100%;
-    margin-right: 24px;
+    width: 45%;
+    margin-right: 20px;
+  }
+
+  input[name="lastname"] {
+    height: 48px;
+    display: inline-block;
+    width: 47%;
+    margin-right: 5px;
   }
 
   input[name="email-address"] {
     height: 48px;
-    width: 100%;
+    width: 97%;
   }
 
   input:placeholder-shown {
@@ -482,7 +489,6 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 15px;
-    width: 705px;
     height: 114px;
     padding: 12px;
   }
