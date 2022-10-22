@@ -69,7 +69,7 @@ const projects = [
       'Swagger',
     ],
     liveVersion: 'https://github.com/oliverSCZ/budgetic-app',
-    gitHubRepo: '#',
+    gitHubRepo: 'https://boiling-falls-90821.herokuapp.com/users/sign_in',
   },
   {
     namepreview: 'Pokedex',
